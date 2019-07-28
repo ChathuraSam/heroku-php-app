@@ -33,7 +33,7 @@
     @ fclose($fileHandle);
   }
 
-  
-  echo '';
+  require_once 'index.php';
+
 
 ?>
